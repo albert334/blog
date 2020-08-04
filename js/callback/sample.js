@@ -14,7 +14,7 @@ let func_dozen2 = function (num){
 }
 
 function gross(num){
-    let ans = dozen(num*12);
+    let ans = dozen(dozen(num));
     return ans;
 }
 
@@ -23,10 +23,9 @@ function callback(num, cb){
     return ans;    
 }
 
-function callback2(num, function(num){
-    let answers = num * 12
-    return answers;
-}){
-    let ans = cb(num);
-    return ans;    
+function OnButtonClick(){
+    window.setTimeout(function(){
+        alert("hoge");
+    }
+    , 3000)
 }
