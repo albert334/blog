@@ -28,4 +28,5 @@ function OnButtonClick(){
         alert("hoge");
     }
     , 3000)
+    alert("fuga");
 }
