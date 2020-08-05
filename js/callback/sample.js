@@ -1,25 +1,25 @@
 function dozen(num){
-    let ans = num*12;
+    const ans = num*12;
     return ans;
 }
 
 let func_dozen = function dozen(num){
-    let ans = num * 12;
+    const ans = num * 12;
     return ans;
 }
 
 let func_dozen2 = function (num){
-    let ans = num * 12;
+    const ans = num * 12;
     return ans;
 }
 
 function gross(num){
-    let ans = dozen(dozen(num));
+    const ans = dozen(dozen(num));
     return ans;
 }
 
 function callback(num, cb){
-    let ans = cb(num);
+    const ans = cb(num);
     return ans;    
 }
 
